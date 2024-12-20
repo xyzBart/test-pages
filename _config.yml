@@ -1,3 +1,5 @@
 theme: jekyll-theme-minimal
 title: Test title in test-pages
 description: Test description in test-pages
+plugins:
+  - jekyll-optional-front-matter
