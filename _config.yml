@@ -1,5 +1,13 @@
 theme: jekyll-theme-minimal
-title: Test title in test-pages
-description: Test description in test-pages
+title: Title from config
+description: Description from config
 plugins:
   - jekyll-optional-front-matter
+
+defaults:
+  - scope:
+      path: ""          # Applies to all files
+      type: "pages"     # Applies to all Markdown pages
+    values:
+      layout: "default"
+

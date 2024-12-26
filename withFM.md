@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Test Page
+title: Tittle from front matter
 ---
 ## withFM
 
