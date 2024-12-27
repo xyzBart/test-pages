@@ -14,11 +14,7 @@
 
 - https://github.com/xyzBart/test-pages
 - https://xyzbart.github.io/test-pages/
-
-
-https://xyzbart.github.io/test-pages/withFM.html
-
-https://docs.github.com/en/pages/quickstart
+- https://chatgpt.com/g/g-p-676d8f5e01088191882435a1d67e4be9-jekyll/project
 
 
 ## Komendy
@@ -34,8 +30,10 @@ bundle install
 ## Front matter
 
 Minimalne co jest wymagane aby zrobil transformate na html, przeciwnie kopiuje jako MD:
+
+```yaml
 ---
 layout: default
 ---
-
+```
 lub wpiety plugin jekyll-optional-front-matter + defaultys jak jest w mimal/_config.yml
