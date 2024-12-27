@@ -7,6 +7,8 @@
 
 https://xyzbart.github.io/test-pages/withFM.html
 
+https://docs.github.com/en/pages/quickstart
+
 
 
 docker run -it --rm -v ~/checks/test-pages/:/test-pages jekyll/builder bash
