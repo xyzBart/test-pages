@@ -1,0 +1,32 @@
+
+/* Custom Dark Mode for Minima */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+a {
+  color: #bb86fc;
+}
+
+a:hover {
+  color: #ff79c6;
+}
+
+.site-header,
+.site-footer {
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+  border-color: #333;
+}
+
+code, pre {
+  background-color: #1e1e1e;
+  color: #dcdcdc;
+}
+
+blockquote {
+  border-left-color: #444;
+  color: #bbb;
+}
+
