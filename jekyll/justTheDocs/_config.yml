@@ -53,3 +53,9 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+color_scheme: dark
+just_the_docs:
+  enable_toc: true
+  toc: true
+  toc_levels: "h2, h3"
