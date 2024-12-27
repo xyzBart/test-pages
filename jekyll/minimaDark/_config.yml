@@ -34,8 +34,6 @@ theme: minima
 minima:
   skin: dark
 
-include:
-  - assets/css/custom-dark.css
 
 plugins:
   - jekyll-feed
