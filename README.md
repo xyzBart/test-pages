@@ -23,7 +23,7 @@ https://docs.github.com/en/pages/quickstart
 
 ## Komendy
 - docker run -it --rm -v ~/checks/test-pages/:/test-pages -p 4000:4000 jekyll/builder bash - toolbox nie dziala, bo leci z usera jekyll
-- jekyll new --skip-bundle
+- jekyll new --skip-bundle .
 - bundle install
 - jekyll build --future
 - bundle add webrick - czysty jekyll nie pojdzie bez tego
