@@ -8,7 +8,7 @@ has_toc: true
 ## Table of Contents
 
 1. TOC
-{::toc}
+{:toc}
 
 
 ### Kwit2
