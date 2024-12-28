@@ -6,6 +6,7 @@
  - new - jekyll new --skip-bundle (bez skip bundle nic nie wecej nie robi, a sie chyba gem wywala)
  - mimimaDark - mimia z skin dark, trzeba bylo wersja minimma z githuba dać inaczej nie ma 3.0
  - mimimaDarkByCss - recznie zmieniony css na dark
+ - justTheDocs
 - miminal - minimalny taki sam z github, ustawione auto przerabiania mardowni bez frontmattera
 
 
@@ -16,6 +17,7 @@
 - https://xyzbart.github.io/test-pages/
 - https://chatgpt.com/g/g-p-676d8f5e01088191882435a1d67e4be9-jekyll/project
 
+# Jekyll
 
 ## Komendy
 - docker run -it --rm -v ~/checks/test-pages/:/test-pages -p 4000:4000 jekyll/builder bash - toolbox nie dziala, bo leci z usera jekyll
@@ -37,3 +39,9 @@ layout: default
 ---
 ```
 lub wpiety plugin jekyll-optional-front-matter + defaultys jak jest w mimal/_config.yml
+
+
+## Just the docs
+- Jest autobudowanie lewego menu, musi być title w FM
+- Jest dark mode
+- jest TOC, ale tylko w miejscu wskazna, nie ma outlinu z lewej strony bez kombinacji
