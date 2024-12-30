@@ -20,5 +20,7 @@
 - może być hugo.toml lug config.toml, byle jeden
 - base url nie configu nie ustawia portu
 - jeżeli port jest w użyciu odpali sie na jakims losowym, da urla w logu
-- hugo new content/index.md - to jest lipa, chat dał, trzeba bylo wywalic to z headera
+- hugo new content/index.md - to jest lipa, chat dał, trzeba bylo wywalic to z headere
+- po new site jest sa dwa pliki i puste katalogi: archetypes/default.md hugo.toml
+
 
