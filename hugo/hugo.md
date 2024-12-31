@@ -16,11 +16,33 @@
 
 
 ## General
-- nie potrzebny front matter
+- nie potrzebny front matter, ale niektore themy moga wymagac jakis parametrow
 - może być hugo.toml lug config.toml, byle jeden
 - base url nie configu nie ustawia portu
 - jeżeli port jest w użyciu odpali sie na jakims losowym, da urla w logu
 - hugo new content/index.md - to jest lipa, chat dał, trzeba bylo wywalic to z headere
 - po new site jest sa dwa pliki i puste katalogi: archetypes/default.md hugo.toml
+
+Default front matter do: archetypes/default.md
+
+```yaml
+---
+title: "{{ replace .Name "-" " " | title }}"
+date: {{ .Date }}
+draft: false
+---
+```
+
+
+## Docsy
+
+```bash
+hugo new site .
+git submodule add https://github.com/google/docsy.git themes/docsy
+cd themes/docsy
+npm install
+echo "# Indeks \n Kontent" > content/_index.md
+
+```
 
 
