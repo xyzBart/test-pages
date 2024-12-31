@@ -1,0 +1,24 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'hugo-book'
+
+
+[params]
+  # (Optional, default light) Sets color theme: light, dark or auto.
+  # Theme 'auto' switches between dark and light modes based on browser/os preferences
+  BookTheme = 'dark'
+
+  BookRepo = 'https://github.com/alex-shpak/hugo-book'
+
+  # Specifies commit portion of the link to the page's last modified commit hash for 'doc' page
+  # type.
+  # Required if 'BookRepo' param is set.
+  # Value used to construct a URL consisting of BookRepo/BookCommitPath/<commit-hash>
+  # Github uses 'commit', Bitbucket uses 'commits'
+  BookCommitPath = 'commit'
+
+  # Enable 'Edit this page' links for 'doc' page type.
+  # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
+  # Path must point to the site directory.
+  BookEditPath = 'edit/master/exampleSite'

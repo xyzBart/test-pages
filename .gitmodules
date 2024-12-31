@@ -4,3 +4,6 @@
 [submodule "hugo/docsy/themes/docsy"]
 	path = hugo/docsy/themes/docsy
 	url = https://github.com/google/docsy.git
+[submodule "hugo/book/themes/hugo-book"]
+	path = hugo/book/themes/hugo-book
+	url = https://github.com/alex-shpak/hugo-book
