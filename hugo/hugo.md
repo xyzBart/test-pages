@@ -41,8 +41,21 @@ hugo new site .
 git submodule add https://github.com/google/docsy.git themes/docsy
 cd themes/docsy
 npm install
-echo "# Indeks \n Kontent" > content/_index.md
+echo "# Indeks h1 " > content/_index.md
 
 ```
+
+- musi byc front matter z tittle i type=docs (bez tego kontent przykryty jest przez nav bara)
+- jesli do katalogu docs dodany, to nie trzeba type
+- nie da sie zmusic, zeby nie trzeba bylo title i bral z nazwy pliku
+- archetypes/default.md jest używany tylko przy kreacji nowego md
+- dark mode tylko przez przełącznik, nie da sie na stałe wymusić
+
+
+## Book
+- nic nie musi być w front matter
+- dark mode z konfiga
+- jest outline z prawej
+- jest edit button
 
 
