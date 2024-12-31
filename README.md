@@ -50,3 +50,9 @@ lub wpiety plugin jekyll-optional-front-matter + defaultys jak jest w mimal/_con
 - trzeba ręcznie dodawać do menu (_data/toc.yml), autobudowanie wymaga mocnych kombinacji. W Hugo jest to lepiej rozwiązane [chat](https://chatgpt.com/g/g-p-676d8f5e01088191882435a1d67e4be9-jekyll/c/676ec1f8-8fb8-8006-b57e-0f6af33b3e13)
 - nie wspiera dark mode przez config
 - outline jest, nie próbowane
+
+
+## Todo
+- Summary w itnotes:
+  - https://chatgpt.com/c/6774448a-8b6c-8006-8246-76be877fb43e
+  - https://chatgpt.com/c/677267b6-42d8-8006-a7bc-bb2b9b68c784
