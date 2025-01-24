@@ -1,3 +1,18 @@
+## Struct
+
+- github jekyll
+- jekyll 
+- hug
+- lista innych
+
+
+- [Jekyll](jekyll/jekyll.md)
+- [Hugo](hugo/hugo.md)
+- [Eleventy](https://github.com/11ty/eleventy/?tab=readme-ov-file#eleventy-%EF%B8%8F): [home](https://www.11ty.dev/), [review](https://www.smashingmagazine.com/2021/03/eleventy-static-site-generator/)
+- [Quartz](https://quartz.jzhao.xyz/): [gh]()
+- [Read the docs](https://docs.readthedocs.io/en/stable/): [gh](https://github.com/readthedocs/readthedocs.org?tab=readme-ov-file#welcome-to-read-the-docs)
+- [Chat list](https://chatgpt.com/g/g-p-676d8f5e01088191882435a1d67e4be9-jekyll/c/676efdf2-a028-8006-b909-6cd7e874babc)
+
 ## Katalogi
 
 - docs - zrobiony zgodnie z https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll + theme ustawiony
@@ -17,42 +32,20 @@
 - https://xyzbart.github.io/test-pages/
 - https://chatgpt.com/g/g-p-676d8f5e01088191882435a1d67e4be9-jekyll/project
 
-# Jekyll
-
-## Komendy
-- docker run -it --rm -v ~/checks/test-pages/:/test-pages -p 4000:4000 jekyll/builder bash - toolbox nie dziala, bo leci z usera jekyll
-- jekyll new --skip-bundle .
-- bundle install
-- jekyll build --future
-- bundle add webrick - czysty jekyll nie pojdzie bez tego
-- jekyll server
-
-bundle install
-
-## Front matter
-
-Minimalne co jest wymagane aby zrobil transformate na html, przeciwnie kopiuje jako MD:
-
-```yaml
----
-layout: default
----
-```
-lub wpiety plugin jekyll-optional-front-matter + defaultys jak jest w mimal/_config.yml
-
-
-## Just the docs
-- Jest autobudowanie lewego menu, musi być title w FM
-- Jest dark mode
-- jest TOC, ale tylko w miejscu wskazna, nie ma outlinu z lewej strony bez kombinacji
-
-## Docsy
-- trzeba ręcznie dodawać do menu (_data/toc.yml), autobudowanie wymaga mocnych kombinacji. W Hugo jest to lepiej rozwiązane [chat](https://chatgpt.com/g/g-p-676d8f5e01088191882435a1d67e4be9-jekyll/c/676ec1f8-8fb8-8006-b57e-0f6af33b3e13)
-- nie wspiera dark mode przez config
-- outline jest, nie próbowane
+All repos
+- https://github.com/xyzBart/xyzbart.github.io
+- https://github.com/xyzBart/test-pages
+- https://github.com/xyzBart/testghpage.github.io
 
 
 ## Todo
 - Summary w itnotes:
   - https://chatgpt.com/c/6774448a-8b6c-8006-8246-76be877fb43e
   - https://chatgpt.com/c/677267b6-42d8-8006-a7bc-bb2b9b68c784
+
+
+## Quartz
+- https://notes.nicolevanderhoeven.com/How+to+publish+Obsidian+notes+with+Quartz+on+GitHub+Pages
+- https://quartz.jzhao.xyz/hosting
+- https://www.reddit.com/r/ObsidianMD/comments/tt3uiq/publish_your_obsidian_vault_online_for_free_with/
+- https://www.youtube.com/watch?v=6s6DT1yN4dw
