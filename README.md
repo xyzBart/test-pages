@@ -2,6 +2,8 @@
 
 # Summary
 
+[Gh](https://github.com/xyzBart/test-pages?tab=readme-ov-file#docs-engines)
+
 Min ficzery: auto menu z prawej, outline z lewej, dark mode, bez front mattera, dobry search, edit baton do github
 
 Jekyll nie ma templatu, który by auto budowal sensowe menu + toc bez frontmatera + dark mode. Tylko jakieś połowiczne rozwiązania. Generalnie wszystkie themy słabo wyglądają (jekyll-theme-minimal - defaultowy theme githuba).
