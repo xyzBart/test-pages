@@ -1,6 +1,3 @@
-## Summary
-
-Jekyll nie ma templatu, który by auto budowal sensowe menu + toc bez frontmatera + dark mode. Tylko jakieś połowiczne rozwiązania. Generalnie wszystkie themy słabo wyglądają (jekyll-theme-minimal - defaultowy theme githuba).
 
 
 ## Katalogi
