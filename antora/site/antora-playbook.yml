@@ -1,0 +1,18 @@
+site:
+  title: My First Antora Site
+  start_page: component-name::index.adoc
+
+content:
+  sources:
+    - url: ../../
+      start_path: antora/test-component/docs
+      branches: HEAD
+
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+
+output:
+  dir: build/site
+
